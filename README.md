@@ -10,6 +10,9 @@ Setup:
 * Write Haskell in your preferred editor on your workstation; it'll sync to the VM.
 * When you want to build/run your code, run `vagrant ssh` and then compile your code as needed.
 
+Tools:
+* Stack: https://docs.haskellstack.org/en/stable/README/
+
 Resources:
 * https://wiki.haskell.org/Learning_Haskell
 * https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
