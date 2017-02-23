@@ -5,9 +5,10 @@ Prerequisites:
 * Vagrant
 
 Setup:
-* In this directory, run `vagrant up`
-* When that finishes, run `vagrant ssh`
-* Write Haskell!
+* In this directory, run `vagrant up` to start the VM.
+* You'll have a `haskell` folder synced to your workstation.
+* Write Haskell in your preferred editor on your workstation; it'll sync to the VM.
+* When you want to build/run your code, run `vagrant ssh` and then compile your code as needed.
 
 Resources:
 * https://wiki.haskell.org/Learning_Haskell
