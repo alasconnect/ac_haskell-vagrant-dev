@@ -1,3 +1,6 @@
+haskell/*
+!haskell/README.md
+
 # Vagrant
 .vagrant
 

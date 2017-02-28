@@ -14,10 +14,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.synced_folder "haskell", "/home/vagrant/haskell",
     owner: "vagrant",
+    group: "vagrant",
     mount_options: ["dmode=775,fmode=664"]
 
-  config.vm.provision "file", source: "provision.sh", destination: "/home/vagrant/provision.sh"
-  config.vm.provision "shell" do |s|
-    s.inline = "bash /home/vagrant/provision.sh"
-  end
+  config.vm.provision "shell",
+    path: "provision.sh",
+    privileged: true
 end
