@@ -13,7 +13,11 @@ Setup:
 Tools:
 * Stack: https://docs.haskellstack.org/en/stable/README/
 
+Online editor:
+* http://rextester.com/l/haskell_online_compiler
+
 Resources:
+* https://github.com/Nezteb/haskell
 * https://wiki.haskell.org/Learning_Haskell
 * https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems
 * http://learnyouahaskell.com/chapters

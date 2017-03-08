@@ -12,10 +12,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network :private_network, ip: "172.28.128.16"
   config.vm.hostname = "haskell.dev"
 
-  config.vm.synced_folder "haskell", "/home/vagrant/haskell",
-    owner: "vagrant",
-    group: "vagrant",
-    mount_options: ["dmode=775,fmode=664"]
+  #config.vm.synced_folder "haskell", "/home/vagrant/haskell",
+  #  owner: "vagrant",
+  #  group: "vagrant",
+  #  mount_options: ["dmode=775,fmode=664"]
 
   config.vm.provision "shell",
     path: "provision.sh",
